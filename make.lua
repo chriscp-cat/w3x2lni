@@ -188,6 +188,7 @@ lm:shared_library 'minizip' {
 }
 
 lm:msvc_copydll 'copy_vcrt' {
+    type = 'vcrt',
     output = 'bin',
 }
 
