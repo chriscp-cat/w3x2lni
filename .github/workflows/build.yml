@@ -8,7 +8,7 @@ jobs:
       with:
         ref: refs/heads/master
         submodules : recursive
-    - uses: actboy168/setup-luamake@master
+    - uses: actboy168/setup-luamake@v1
       with:
         arch: x86
     - run: luamake
